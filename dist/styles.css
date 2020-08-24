@@ -1,0 +1,333 @@
+html, body {
+  height: 100%;
+}
+
+.allContent {
+  width: 90%;
+  /* height: 890px; */
+  margin: 3em auto;
+  /* border: 1px solid black; */
+}
+
+.header{
+  width: 95%;
+  height: 5em;
+  margin: 1em auto;
+  /* border: 1px solid red; */
+  display: block;
+  /* position: relative; */
+}
+
+.companyNav {
+  float: left;
+  height: 100%;
+  width: 30%;
+  position: relative;
+  /* border: 1px solid green; */
+}
+
+.company {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.nav {
+  float: right;
+  height: 100%;
+  width: 30%;
+  position: relative;
+  /* border: 1px solid green; */
+}
+
+.navOptions {
+  /* border: 1px solid blue; */
+  font-family: "Abel", Sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+}
+
+nav > a {
+  margin: 0 3%;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
+
+.header:before,
+.header:after {
+  content: "";
+  display: table;
+}
+
+.header:after {
+  clear: both;
+}
+
+.header {
+  clear: both;
+}
+
+.dashboard {
+  /* border: 1px solid red; */
+  width: 100%;
+  height: 30em; 
+}
+
+
+.dashboardUserInfo {
+  /* border: 1px solid blue; */
+  width: 100%;
+  height: 6em;
+  background-color: rgb(249, 249, 249);
+}
+
+.dashboardProfileInfo {
+  /* border: 1px solid green; */
+  width: 80%;
+  height: 100%;
+  margin: auto;;
+  position: relative;
+}
+
+.userPic {
+  display: inline-block;
+  height: 6em;
+  width: 6em;
+  position: relative;
+
+}
+
+.userPicContent {
+  position: absolute;
+  height: 5em;
+  width: 5em;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: orange;
+  border-radius: 50%;
+}
+
+.userPicContent_Letter {
+  margin-top: 5%;
+  text-align: center;
+  font-family: "Abel", Sans-serif;
+  font-size: 4em;
+  color: white;
+}
+
+
+.usernameMainContainer {
+  display: inline-block;
+  position: absolute;
+  height: 100%;
+  width: 70%;
+  margin-left: 1em;
+}
+
+.usernameSecondaryContainer {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+}
+
+.username {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translate(0%, -50%);
+  font-family: "Abel", Sans-serif;
+  font-size: 22px;
+}
+
+.dashboard_options {
+  width: 100%;
+  height: 3em;
+  background-color: rgb(249, 249, 249);
+  /* border: 1px solid red; */
+}
+
+.dashboard_options_container {
+  width: 80%;
+  height: 100%;
+  margin-left: 2em;
+
+}
+
+.dashboard_tab_container {
+  display: inline-block;
+  width: 15%;
+  height: 100%;
+  position: relative;
+}
+
+.dashboard_tab {
+  position: absolute;
+  width: 80%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Abel", Sans-serif;
+  color: rgb(134, 1, 119)
+}
+
+.dashboard_tab:hover {
+
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.dashboardContent_Container {
+  display: block;
+  
+  background-color: rgb(241, 241, 241);
+  height: 100%;
+  /* border: 1px solid black; */
+}
+
+.dashboardContent_Parent {
+  display: block;
+  position: relative;
+  width: 90%;
+  height: 100%;
+  margin: auto;
+  /* border: 1px solid blue; */
+}
+
+.dashboardContent {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 80%;
+  top: 50%;
+  /* left: 50%; */
+  transform: translate(0, -50%);
+  margin: auto;
+  /* border: 1px solid green; */
+}
+
+.tabContentParent {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  /* border: 1px solid red */
+}
+
+
+.uploadVideo_FormContainer_Parent {
+  display: inline-block;
+  position: relative;
+  width: 33%;
+  height: 100%;
+  margin: auto;
+  border-right: 1px solid rgb(225, 225, 225);
+  /* border: 1px solid mediumseagreen; */
+}
+
+.noRightBorder {
+  border-right: none;
+}
+
+.uploadVideoTitle {
+  display: block;
+  width: 70%;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50% , 0);
+  text-align: center;
+  font-size: 1.5em;
+  font-family: "Abel", Sans-serif;
+  font-weight: 400;
+  color:black
+  /* border: 1px solid green; */
+}
+
+.uploadDescription {
+  margin-top: 0.3em;
+  font-size: 16px;
+}
+
+.uploadBtn {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 8em;
+  height: 2.5em;
+  background-color: rgb(134, 1, 119);
+  color: white;
+  border-radius: 0.3em;
+  text-align: center;
+}
+
+.uploadBtn:hover {
+  cursor: pointer;
+}
+
+.inputFile {
+  width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+.uploadBtnText_Parent {
+  position: relative;
+  width: 100%;
+  height: 100%
+}
+
+.uploadBtnText {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.radioContainer {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 60%;
+  height: 10em;
+  /* border: 1px solid red; */
+}
+
+label {
+  display: block;
+  font-family: "Abel", Sans-serif;
+  color: rgb(134, 1, 119);
+  margin: 0.5em 0;
+
+}
+
+.goLiveCheckbox_Parent{
+  position: relative;
+  width: 100%;
+  height: 100%
+}
+
+.goLiveCheckbox {
+  position: absolute;
+  /* top: 50%; */
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 40%;
+  height: 40%;
+  /* margin: auto; */
+}
