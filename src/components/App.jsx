@@ -20,6 +20,12 @@ function App() {
       <section>
         <Router />
       </section>
+      <footer className='footer'>
+        <div className='companyNav companyNavFooter'>
+          {/* <img className='company' src='https://xctuality.com/wp-content/uploads/2020/07/Xctuality_Color-768x96.png'></img> */}
+          <div className='footerCompany'>Xctuality</div>
+        </div>
+      </footer>
     </div>
   )
 };

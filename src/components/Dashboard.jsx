@@ -7,7 +7,7 @@ function Dashboard(props) {
 
   const [username, setUserName] = useState('');
   const dashboardTabs = ['Upload Video', 'Videos', 'Channels', 'Live Now'];
-  const [clickedTab, setClickedTab] = useState(dashboardTabs[0]);
+  const [clickedTab, setClickedTab] = useState(dashboardTabs[1]);
 
   useEffect( () => {
     Axios.get('/getUserName', )
